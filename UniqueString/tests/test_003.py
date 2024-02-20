@@ -1,11 +1,11 @@
 import unittest
-from UniqueString import src
+import UniqueString.src.solution as sol
 
 
 class TestSum(unittest.TestCase):
     def testing(self):
         string = "asdfghjklqwertyuiop4bvcz34nvfhje"
-        self.assertEqual(src.is_unique(string), False)
+        self.assertEqual(sol.is_unique(string), False)
 
 
 if __name__ == '__main__':
