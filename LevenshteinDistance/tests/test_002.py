@@ -5,7 +5,7 @@ import LevenshteinDistance.src.solution as sol
 class TestSum(unittest.TestCase):
     def testing(self):
         s1 = ""
-        s2 = ""
+        s2 = " "
         self.assertTrue(sol.levenshtein_distance(s1, s2))
 
 
