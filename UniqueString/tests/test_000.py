@@ -5,7 +5,7 @@ import UniqueString.src.solution as sol
 class TestSum(unittest.TestCase):
     def testing(self):
         string = "abc"
-        self.assertEqual(sol.is_unique(string), True)
+        self.assertTrue(sol.is_unique(string))
 
 
 if __name__ == '__main__':
