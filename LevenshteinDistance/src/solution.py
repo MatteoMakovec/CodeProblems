@@ -46,5 +46,6 @@ def levenshtein_distance(s1: str, s2: str) -> bool:
         return False
 
 """
-
+The time complexity is O(N), where N is the length of the shortest string.
+The space complexity is O(1), since only the check and loops variables are used.
 """
