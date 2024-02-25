@@ -25,3 +25,8 @@ my_list = [64, 34, 25, 12, 22, 11, 90]
 print("Array: ", my_list)
 quick_sort(my_list, 0, len(my_list) - 1)
 print("Sorted array:", my_list)
+
+"""
+Time complexity: O(N*log(N)) in the average case, O(N^2) in the worst case
+Space complexity: O(log(N))
+"""

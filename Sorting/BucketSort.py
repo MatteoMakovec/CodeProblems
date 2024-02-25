@@ -23,3 +23,8 @@ my_list = [64, 34, 25, 12, 22, 11, 90]
 print("Array: ", my_list)
 my_list = bucket_sort(my_list)
 print("Sorted array:", my_list)
+
+"""
+Time complexity: O(N^2)
+Space complexity: O(N+k)
+"""
