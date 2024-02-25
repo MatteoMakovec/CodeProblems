@@ -25,3 +25,8 @@ if result != -1:
     print(f"Element {target_value} is present at index {result}.")
 else:
     print(f"Element {target_value} is not present in the list.")
+
+"""
+Time complexity: O(log(N))
+Space complexity: O(1)
+"""
