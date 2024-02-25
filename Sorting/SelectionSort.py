@@ -1,4 +1,7 @@
-def selection_sort(arr):
+from typing import List
+
+
+def selection_sort(arr: List[int]) -> None:
     n = len(arr)
 
     for i in range(n):

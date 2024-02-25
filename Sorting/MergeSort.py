@@ -1,4 +1,7 @@
-def merge_sort(arr):
+from typing import List
+
+
+def merge_sort(arr: List[int]) -> None:
     if len(arr) > 1:
         mid = len(arr) // 2
 
